@@ -1,4 +1,4 @@
-# C# Blank Template
+# C# Dependency Injection with Interfaces
 
 ## Learning Objectives
 - Use interfaces to improve maintainability of an application
