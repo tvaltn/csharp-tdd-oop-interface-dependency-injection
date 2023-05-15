@@ -1,8 +1,11 @@
-﻿using tdd_oop_interface_dependency_injection.CSharp.Main;
+﻿using NUnit.Framework;
+using tdd_oop_interface_dependency_injection.CSharp.Main;
 
 namespace tdd_oop_interface_dependency_injection.CSharp.Test
 {
-    class ScrabbleTest {
+
+        [TestFixture]
+        public class ScrabbleTest {
         [Test]
         public void shouldGive0ForEmptyWords() {
             Scrabble scrabble = new Scrabble();
