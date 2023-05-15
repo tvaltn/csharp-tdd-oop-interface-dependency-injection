@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace tdd_oop_interface_dependency_injection.CSharp.Main
 {
     public class Scrabble {
-        Dictionary<Char, int> letterScores;
+        private Dictionary<Char, int> letterScores;
 
         public Scrabble() {
             Alphabet a = new Alphabet();
